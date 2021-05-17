@@ -1,0 +1,10 @@
+main.h
+main2.h
+main3.h
+main4.h
+
+cmake-build-debug/
+cmake-build-release/
+.idea/
+
+*.log
