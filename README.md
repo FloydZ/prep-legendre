@@ -7,6 +7,16 @@ Requirements
 - cmake 3.20
 - c++ 20 compiler
 - gmp, gmpxx
+ 
+Build Instructions:
+-----
+To build the project simply run:
+```bash
+mkdir cmake-build-release
+cd cmake-build-release/
+cmake -DCMAKE_BUILD_TYPE=Release ..
+make -j2
+```
 
 Run Benchmark
 ----
