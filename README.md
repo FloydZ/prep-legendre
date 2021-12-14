@@ -1,6 +1,6 @@
 Introduction
 ----
-This repository contains the benchmark code for the paper [Legendre PRF (Multiple) Key Attacks and the Power of Preprocessin] (https://eprint.iacr.org/2021/645.pdf).
+This repository contains the benchmark code for the paper (Legendre PRF (Multiple) Key Attacks and the Power of Preprocessin)[https://eprint.iacr.org/2021/645.pdf].
 
 Requirements
 ----
