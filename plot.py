@@ -182,7 +182,8 @@ def linear_interpolate(data):
 def write_tex(out_name, data, single_m=False):
     """
     writes `data` to `out_name` in a text readable format.
-        If `single_m` is set this function will not generate for each differetn m a new output file.
+        If `single_m` is set this function will not generate for each different
+        `m` a new output file.
     :param out_name
     :param data:
     :param single_m
@@ -191,7 +192,7 @@ def write_tex(out_name, data, single_m=False):
     split = os.path.split(out_name)
 
     for tup, fname in enumerate([split[0] + "/l_m" + "_" + split[1],
-                               split[0] + "/d_m" + "_" + split[1]]):
+                                 split[0] + "/d_m" + "_" + split[1]]):
         for m, _ in data[tup].items():
             with open(fname, "w") as f:
                 f.write("W T\n")

@@ -3,8 +3,11 @@ main2.h
 main3.h
 main4.h
 
+build/
 cmake-build-debug/
 cmake-build-release/
 .idea/
-
+.cache/
+.config/
+.local-history/
 *.log
