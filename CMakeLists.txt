@@ -13,7 +13,7 @@ set(DEBUG_FLAGS "-g -DDEBUG -DUSE_AVX2 -march=native ${SANITIZE_FLAG}")
 set(OPTIMIZE_FLAGS "-O3 -march=native -flto -DUSE_AVX2 ${SANITIZE_FLAG}")
 set(SANITIZER_FLAGS -fsanitize=address -fno-omit-frame-pointer)
 set(GCC_HELPER_FLAGS -fvar-tracking-assignments)
-set(LINK_FLAGS -lgtest -pthread gmp gmpxx ${SANITIZE_FLAG})
+set(LINK_FLAGS -pthread gmp gmpxx ${SANITIZE_FLAG})
 
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} ${DEBUG_FLAGS}")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} ${DEBUG_FLAGS}")
